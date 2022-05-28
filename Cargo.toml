@@ -1,6 +1,6 @@
 [package]
 name = "libprocmem"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "BSD-2-Clause"
 description = "A /proc/<pid>/mem reading and writing library"
