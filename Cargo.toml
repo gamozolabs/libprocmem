@@ -1,0 +1,12 @@
+[package]
+name = "libprocmem"
+version = "0.1.0"
+edition = "2021"
+license = "BSD-2-Clause"
+description = "A /proc/<pid>/mem reading and writing library"
+documentation = "https://docs.rs/libmem"
+repository = "https://github.com/gamozolabs/libprocmem"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
