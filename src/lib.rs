@@ -3,6 +3,9 @@
 
 #![feature(new_uninit)]
 
+#[cfg(not(target_os = "linux"))]
+compile_error!("libprocmem only supported for Linux targets");
+
 use std::fs::File;
 use std::io::{Seek, SeekFrom, Read};
 use std::mem::MaybeUninit;
